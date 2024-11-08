@@ -1,12 +1,9 @@
-# SamplePlugin
+# Xana3D FFXIV Plugins
 
-Simple example plugin for Dalamud.
+A repo consisitng of all my Dalamud plugins for FFXIV.
 
-## Features
+## Plugins
 
-* Simple functional plugin
-  * Slash command
-  * Main UI
-  * Settings UI
-  * Image loading
-  * Plugin json
+* Gear Finder plugin
+  * Quickly find the Best in Slot gear for raiding using The Balance - https://www.thebalanceffxiv.com/
+  * Has support for custom Etro sets - https://etro.gg/
