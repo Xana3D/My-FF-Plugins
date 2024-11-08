@@ -1,10 +1,13 @@
 {
   "Author": "Xana3D",
-  "Name": "Sample Plugin",
-  "Punchline": "A short one-liner that shows up in /xlplugins.",
-  "Description": "A description that shows up in /xlplugins. List any major slash-command(s).",
+  "Name": "Gear Finder",
+  "Punchline": "A Plugin to show reccomended gear from The Balance and Custom Etro sets.",
+  "Description": "Find the best in slot gear sets for both crafting and gathering as well as raiding.",
   "ApplicableVersion": "any",
   "Tags": [
-    "plugin"
+    "plugin",
+    "gear",
+    "raid",
+    "raiding"
   ]
 }
