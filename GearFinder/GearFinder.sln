@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GearFinder", "GearFinder.csproj", "{1FE28B20-7387-45AE-9012-BA06D8DAAE97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FE28B20-7387-45AE-9012-BA06D8DAAE97}.Debug|x64.ActiveCfg = Debug|x64
+		{1FE28B20-7387-45AE-9012-BA06D8DAAE97}.Debug|x64.Build.0 = Debug|x64
+		{1FE28B20-7387-45AE-9012-BA06D8DAAE97}.Release|x64.ActiveCfg = Release|x64
+		{1FE28B20-7387-45AE-9012-BA06D8DAAE97}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {335E5DFD-0E7B-441B-A5E9-0708377BB650}
+	EndGlobalSection
+EndGlobal

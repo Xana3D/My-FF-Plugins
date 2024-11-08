@@ -2,7 +2,7 @@
   "Author": "Xana3D",
   "Name": "Gear Finder",
   "Punchline": "A Plugin to show reccomended gear from The Balance and Custom Etro sets.",
-  "Description": "Find the best in slot gear sets for both crafting and gathering as well as raiding.",
+  "Description": "Find the best in slot gear sets for both crafting and gathering as well as raiding." \n "Use /gearfinder to open the main window",
   "ApplicableVersion": "any",
   "Tags": [
     "plugin",

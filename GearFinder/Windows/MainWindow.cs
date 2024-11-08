@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Numerics;
 using Dalamud.Interface.Internal;
 using Dalamud.Interface.Utility;
@@ -6,17 +6,17 @@ using Dalamud.Interface.Windowing;
 using Dalamud.Plugin.Services;
 using ImGuiNET;
 
-namespace SamplePlugin.Windows;
+namespace GearFinder.Windows;
 
 public class MainWindow : Window, IDisposable
 {
-    private string GoatImagePath;
+    private string ImagePath;
     private Plugin Plugin;
 
     // We give this window a hidden ID using ##
     // So that the user will see "My Amazing Window" as window title,
     // but for ImGui the ID is "My Amazing Window##With a hidden ID"
-    public MainWindow(Plugin plugin, string goatImagePath)
+    public MainWindow(Plugin plugin, string ImagePath)
         : base("My Amazing Window##With a hidden ID", ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
     {
         SizeConstraints = new WindowSizeConstraints
@@ -25,7 +25,7 @@ public class MainWindow : Window, IDisposable
             MaximumSize = new Vector2(float.MaxValue, float.MaxValue)
         };
 
-        GoatImagePath = goatImagePath;
+        ImagePath = ImagePath;
         Plugin = plugin;
     }
 
@@ -43,7 +43,7 @@ public class MainWindow : Window, IDisposable
         ImGui.Spacing();
 
         ImGui.Text("Have a goat:");
-        var goatImage = Plugin.TextureProvider.GetFromFile(GoatImagePath).GetWrapOrDefault();
+        var goatImage = Plugin.TextureProvider.GetFromFile(ImagePath).GetWrapOrDefault();
         if (goatImage != null)
         {
             ImGuiHelpers.ScaledIndent(55f);
